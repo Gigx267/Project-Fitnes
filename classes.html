@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+    <title>Project Fitness</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <style>
+    #load{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
+	z-index: 9999999;
+    }
+    </style>
+</head>
+<body onload="myfunction()">
+    <div id="load"></div>
+    <!-- navbar section -->
+    <nav class= " flex bg-black  text-white sticky top-0">
+        <h2 class="m-5  text-4xl">Project <h2  class="text-purple-800 mt-5 -ml-5 text-4xl">Fitness</h2></h2>
+        <ul class=" flex flex-row items-center ml-auto space-x-14 mx-auto text-xl">
+            <li class="cursor-pointer hover:text-pink-700"><a href="./index.html"> Home</a></li >
+            <li class="cursor-pointer hover:text-pink-700"><a href="about.html"> About</a></li >
+            <li class="cursor-pointer hover:text-pink-700"><a href="contact.html"> Contact</a></li >
+            <li class="cursor-pointer hover:text-pink-7000"><a href="classes.html">Classes</a></li >
+        </ul>
+
+
+		<script>
+			var preloader = document.getElementById('load');
+			function myfunction(){
+				preloader.style.display='none';
+			}
+		  </script>
+		<!-- navbar ends -->
+	</body>
+	
+	</html>
